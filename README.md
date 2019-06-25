@@ -4,21 +4,17 @@ node-red-contrib-eiscp
 
 Control your Integra/Onkyo devices (AVR, BD player, etc.) over IP, with help of eISCP protocol right from Node-RED.
 
-eISCP protocol documentation (PDF0: http://goo.gl/Aa1W8F
+PDF of eISCP protocol documentation can be found [here](http://goo.gl/Aa1W8F)
 
 # What's inside?
 
-It will include three nodes:
+The package includes three nodes:
 
 'eiscp-controller' : a unique CONFIG node that holds connection configuration for eiscp and will acts as the encapsulator for eiscp access. As a node-red 'config' node, it cannot be added to a graph, but it acts as a singleton object that gets created in the the background when you add an 'eiscp' or 'eiscp-device' node and configure it accordingly.
 
--- 'eiscp-out' : eiscp output node that can send eiscp, so it can be used with function blocks.
-
--- 'eiscp-in': eiscp listener node, who emits flow messages based on activity on the eiscp device.
-
--- payload contains:
-
---- string data - REQUIRED
+- 'eiscp-out' : eiscp output node that can send eiscp, so it can be used with function blocks.
+- 'eiscp-in': eiscp listener node, who emits flow messages based on activity on the eiscp device.
+-- The payload contains a string reflecting the command and is a mandatory value.
 
 # Usage
 
