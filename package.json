@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/estbeetoo/node-red-contrib-eiscp#readme",
   "dependencies": {
-    "eiscp": "0.2.*"
+    "eiscp": "git://github.com/djiwondee/node-red-contrib-eiscp.git"
   }
 }
