@@ -1,5 +1,8 @@
 node-red-contrib-eiscp
 ==========================
+
+[![codebeat badge](https://codebeat.co/badges/33e94191-3028-4255-82b9-6300cd100c68)](https://codebeat.co/projects/github-com-djiwondee-node-red-contrib-eiscp-master)
+
 # Description
 
 Control your Integra/Onkyo devices (AVR, BD player, etc.) over IP, with help of eISCP protocol right from Node-RED.
